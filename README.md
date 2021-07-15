@@ -11,7 +11,7 @@
     </head>
     <main>
         
-        <p><a href="./Ej_LemonPie/index.html">Lemon Pie</a> 
+        <p><a href="./LemonPieFE1/index.html">Lemon Pie</a> 
         Maquetado del lemon pie</p>
         <p><a href="./Petshop/index.html">Petshop</a>
         Maquetado de Petshop</p>
