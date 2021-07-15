@@ -17,7 +17,7 @@
         Maquetado de Petshop</p>
         <p><a href="./curriculum batman frontend/index.html">Curruculum de Batman</a> 
         Maquetado del Cv de Batman</p>
-        <p><a href="">Curriculum Vitae</a>
+        <p><a href="#">Curriculum Vitae</a>
          Maquetado de CV</p>
         
     </main>
