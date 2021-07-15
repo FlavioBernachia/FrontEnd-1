@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -11,16 +10,16 @@
         <h1>FrontEnd-1</h1>
     </head>
     <main>
-        <p>
-            <a href="">Lemon Pie</a> 
-            Maquetado del lemon pie
-            <a href="">Petshop</a>
-            Maquetado de Petshop
-            <a href="">Curruculum de Batman</a> 
-            Maquetado del Cv de Batman
-            <a href="">cv</a>
-            Maquetado de CV
-        </p>
+        
+        <p><a href="">Lemon Pie</a> 
+        Maquetado del lemon pie</p>
+        <p><a href="">Petshop</a>
+        Maquetado de Petshop</p>
+        <p><a href="">Curruculum de Batman</a> 
+        Maquetado del Cv de Batman</p>
+        <p><a href="">cv</a>
+         Maquetado de CV</p>
+        
     </main>
 </body>
 </html>
