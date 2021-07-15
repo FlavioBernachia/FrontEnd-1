@@ -1,0 +1,40 @@
+/* CSS*/
+/* margin: 0 auto;
+/* Estilos generales */
+body{
+    font-size: 10px;
+}
+p{
+    color:red;
+    font-size: 2rem;
+}
+.h2-imp{
+    color: blue;
+}
+/* Id - clase- elemento prevalece por ubicación en CSS */
+
+ h2{
+     color: #2c2b2d; 
+     background-color: rgba(123, 45, 67, .5);
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     text-transform: uppercase;
+
+ }
+ /*
+ h2{
+      La mayor jerarquía  
+     color:red !important;
+ } */
+ 
+ /******* Header *******/
+ .logo-texto{
+     color: #46178F;
+ }
+ /******* Main ********/
+ /* Sección Productos */
+
+ /* Sección Misión */
+  /******* Footer ********/

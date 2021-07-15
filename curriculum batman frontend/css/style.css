@@ -1,0 +1,20 @@
+/*Body*/
+body{
+    background-color:white;
+
+}
+.logo{
+   text-align: center;
+}
+.titulo{
+    text-align: center;
+    background-color: #c4c4c4;
+    color: #005677;
+    ;
+}
+.subtitulo{
+    text-align: left;
+    background-color: #c4c4c4;
+    color: #005677;
+    ;
+}
