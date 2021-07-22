@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+position: relative;
+margin: 0%;
+width: 1024px;
+height: 1807px;
+background: #FFFFFF;
+}
+/* ------------------------------------ Header superior-------------------------------- */
+.toptittle {
+position: relative;
+width: 1024px;
+height: 30px;
+left: 0px;
+top: 0px;
+background: #222222;
+}
+.ofert{
+position: absolute;
+width: 138px;
+height: 12px;
+left: calc(50% - 138px/2 - 353px);
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: white;
+}
+.idioma{
+position: absolute;
+width: 46px;
+height: auto;
+left: 882px;
+top: 6px;
+background: #222222;
+color: white;
+}
+.moneda{
+position: absolute;
+width: auto;
+height: auto;
+left: 964px;
+top: 6px;
+background: #222222;
+color: white;
+}
+/* ------------------------------------ Header inferior-------------------------------- */
+.rectangle2{
+    position: absolute;
+    width: 1024px;
+    height: 62px;
+    left: 0px;
+    top: 30px;
+    background: #F0A83E;
+    }
+.logo{
+position: absolute;
+width: 166.38px;
+height: 23px;
+left: 40px;
+top: 39px;
+}
+    
+.Textcyd{
+position: absolute;
+width: 96.35px;
+height: 23px;
+left: calc(50% - 96.35px/2 - 356.82px);
+top: 39px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+.Front{
+    position: absolute;
+    width: 57.21px;
+    height: 23px;
+    left: calc(50% - 57.21px/2 - 425.4px);
+    top: 39px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #3C2313;
+}
+.gatito{
+    position: absolute;
+    width: 15.68px;
+    height: 13.12px;
+    left: 40px;
+    top: 43px;
+}
+.perrito{
+    position: absolute;
+    width: 18.38px;
+    height: 14.38px;
+    left: 188px;
+    top: 43px;
+    
+}
+/* ------------------------------------ botonera-------------------------------- */
+.botonera{
+width: 343px;
+height: 15px;
+left: 641px;
+top: 43px;
+}
+#boton1{
+position: absolute;
+width: 64px;
+height: 14px;
+left: calc(50% - 64px/2 + 177px);
+top: 43px;
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+    
+color: #FFFFFF;
+}
+#boton2{
+position: absolute;
+width: 27px;
+height: 14px;
+left: calc(50% - 27px/2 + 258.5px);
+top: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+
+color: #FFFFFF;
+
+}
+#boton3{
+position: absolute;
+width: 54px;
+height: 15px;
+left: calc(50% - 54px/2 + 335px);
+top: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+#boton4{
+    position: absolute;
+width: 74px;
+height: 14px;
+left: calc(50% - 74px/2 + 435px);
+top: 44px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+
+color: #FFFFFF;
+
+}

@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <div><p>Grandes ofertas en comederos</p>
-            <select name="Idioma" id="">
+        <div class="toptittle"><p class="ofert">Grandes ofertas en comederos</p>
+            <select name="Idioma" id="" class="idioma">
                 <option value="1">Español</option>
                 <option value="2">English</option>
                 <option value="3">Portugues</option>
                 <option value="4">Chino</option>
             </select>
-            <select name="Moneda" id="">
-                <option value="1">ARS</option>
+            <select name="Moneda" id="" class="moneda">
+                <option value="1" class="pesos">ARS</option>
                 <option value="2">USD</option>
                 <option value="3">BTC</option>
             </select>
@@ -24,15 +25,18 @@
         <br> <!--Este BR es estetico (luego se quita)-->
 
 
-        <div><img src="./img/Cat.svg" alt="logo">
-            <h1>FrontCat&Dog</h1>
-            <img src="./img/Dog.svg" alt="">
-            <ul>
-                <li><a href="#">Categoria</a></li>
-                <li><a href="#">Pets</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contactanos</a></li>
+        <div class="rectangle2">
+                <img src="./img/Cat.svg" alt="logo" class="gatito">
+                <h1 class="Textcyd"><span class="Front">Front</span>Cat&Dog</h1>
+                <img src="./img/Dog.svg" alt="" class="perrito">
+            <nav class="botonera">
+                <ul>
+                    <li id="boton1"><a href="#">Categoria</a></li>
+                    <li id="boton2"><a href="#">Pets</a></li>
+                    <li id="boton3"><a href="#">Nosotros</a></li>
+                    <li id="boton4"><a href="#">Contactanos</a></li>
             </ul>
+            </nav>
         </div>
 
 

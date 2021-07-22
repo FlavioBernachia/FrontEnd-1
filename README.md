@@ -19,6 +19,8 @@
         Maquetado del Cv de Batman</p>
         <p><a href="#">Curriculum Vitae</a>
          Maquetado de CV</p>
+        <p><a href="./Pizzeria/index.html">Pizzeria</a> 
+            Maquetado de Pizzeria</p>
         
     </main>
 </body>
