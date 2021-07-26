@@ -34,7 +34,7 @@ header .toptittle{
 }
 .Textcyd{
     position: relative;
-    right: 45%;
+    right: 5%;
     padding: 20px;
     bottom: 10px;
 }
@@ -58,7 +58,7 @@ header .toptittle{
 main{
 }
 .container{
-    background-image: url(/img/pet-backgorund.svg);
+    background-image: url(/img/pet-backgorund.png);
     padding: 200px;
     background-repeat: no-repeat;
     background-size: cover;
