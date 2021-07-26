@@ -45,6 +45,21 @@ footer{
 }
 .botones-footer{
    list-style-type: none;
-   display: flex;
-   justify-content:space-between
+   display:column;
+   justify-content:space-between;
+   color: white;
 }
+
+.botones-bot{
+    color: white;
+    text-decoration: none;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
+.botones-bot:hover{
+    background-color: #EEB51D;
+        color: rgb(255, 255, 255);
+    }
+    .botones-bot:active{
+    background-color: wheat;
+    }

@@ -1,1 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "roboto";
+}
+header{
+    background-color: #F0A83E;
+}
+/*#############################top-head#############################*/
+header .toptittle{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+}
+.ofert{
+    position: absolute;
+    left: 10%;
+}
+.idioma{
+    background-color: black;
+    color: white;
+}
+.moneda{
+    background-color: black;
+    color: white;
+}
+/*#############################bot-head#############################*/
+.rectangle2{
+    display: flex;
+    justify-content: flex-end;
+}
+.Textcyd{
+    position: relative;
+    right: 35%;
+    padding: 20px;
+    bottom: 10px;
+}
+.titulo{
+    color: white;
+}
+.img-logo{
+    width: 25px;
+}
+.botonera{
+    position: relative;
+    list-style-type: none;
+    padding: 20px;
+}
+.boton{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+/*#############################main#############################*/
+main{
+}
+.container{
+    background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.svg);
+    padding: 130px;
+}
+.banner-main{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: center;
+    left: 10%;
+}
+.titulo-banner{
+    background-color: white;
+    padding: 10px;
+    color: #3C2313;
+    font-size: 30px;
+
+}
+.subtitulo-banner{
+    padding: 10px;
+    color: #3C2313;
+}
+.botonera-main{
+    text-decoration: none;
+    text-align:center;
+    background-color:#F0A83E;
+    color: white;
+    font-size: 20px;
+    padding: 14px;
+    border-radius:5%;
+    }
