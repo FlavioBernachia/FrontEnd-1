@@ -15,6 +15,7 @@ header .toptittle{
     color: white;
     justify-content: flex-end;
 }
+
 .ofert{
     position: absolute;
     left: 10%;
@@ -55,8 +56,6 @@ header .toptittle{
     padding: 5px;
 }
 /*#############################main#############################*/
-main{
-}
 .container{
     background-image: url(/img/pet-backgorund.png);
     padding: 200px;
