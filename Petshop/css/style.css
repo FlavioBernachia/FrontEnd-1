@@ -57,7 +57,7 @@ header .toptittle{
 }
 /*#############################main#############################*/
 .container{
-    background-image: url(/img/pet-backgorund.png);
+    background-image: url(../img/pet-backgorund.png);
     padding: 200px;
     background-repeat: no-repeat;
     background-size: cover;
