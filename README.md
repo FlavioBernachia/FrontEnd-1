@@ -13,7 +13,7 @@
         
         <p><a href="./LemonPieFE1/index.html">Lemon Pie</a> 
         Maquetado del lemon pie</p>
-        <p><a href="./Petshop/index.html">Petshop</a>
+        <p><a href="./Petshops/index.html">Petshop</a>
         Maquetado de Petshop</p>
         <p><a href="./curriculum batman frontend/index.html">Curruculum de Batman</a> 
         Maquetado del Cv de Batman</p>
