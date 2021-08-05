@@ -1,1 +1,25 @@
 /*estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+}
+.box-offert{
+background-color: #D1891C;
+display: flex;
+align-content: flex-start;
+padding: 5px;
+}
+.Tittle-p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+.background-batman{
+    display: flex;
+    background-image: url(../img/fondo-batman.svg);
+    background-repeat: no-repeat ;
+    border-radius: 67px;
+}
+.id-img{
+    border-radius: 50%;
+}

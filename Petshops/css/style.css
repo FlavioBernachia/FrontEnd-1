@@ -31,11 +31,10 @@ header .toptittle{
 /*#############################bot-head#############################*/
 .rectangle2{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .Textcyd{
     position: relative;
-    right: 40%;
     padding: 20px;
     bottom: 10px;
 }
@@ -111,7 +110,6 @@ header .toptittle{
 }
 .botones-main{
     position: relative;
-    list-style-type: none;
     padding: 20px;
     display: flex;
 }
@@ -133,3 +131,26 @@ header .toptittle{
     justify-content: space-around;
     text-align: center;
 }
+/*#############################bot-main#############################*/
+.bot-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.list-form{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.input{
+    background-color: #3C2313;
+    color: white;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: #3C2313;
+    margin: 5px;
+}
+
