@@ -132,6 +132,9 @@ header .toptittle{
     text-align: center;
 }
 /*#############################bot-main#############################*/
+li{
+    text-decoration: none;
+}
 .bot-main{
     display: flex;
     flex-direction: column;
@@ -154,3 +157,37 @@ header .toptittle{
     margin: 5px;
 }
 
+/*#############################top-footer#############################*/
+.top-footer{
+    background-color:#F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    list-style:none;
+}
+.funciona{
+    display: flex;
+    align-items: center;
+}
+.input1{
+    background-color: white;
+    color: black;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: white;
+    margin: 5px;
+}
+
+.subscribete{
+    position: relative;
+    bottom: -10px; /*line para acomodar textos*/
+    color: white;
+
+}
+.bot-footer{
+    background-color:#3C2313;
+    padding: 30px;
+}
