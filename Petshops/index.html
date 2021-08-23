@@ -28,12 +28,13 @@
 
         <div class="rectangle2">
                 <h1 class="Textcyd"><img class="img-logo" src="./img/Cat.svg" alt="logo">Front<span class="titulo">Cat&Dog</span><img class="img-logo" src="./img/Dog.svg" alt="logo"></h1>
-            <nav class="botonera0">
+                <nav class="botonera0">
+                    <i class="fas fa-bars hamburguesa" id="hamburguesa"></i>
                 <ul class="botonera">
-                    <li"><a class="boton" href="#"><i class="fas fa-paw"></i>Categoria</a></li>
-                    <li"><a class="boton" href="#"><i class="fas fa-paw"></i>Pets</a></li>
-                    <li"><a class="boton" href="#"><i class="fas fa-paw"></i>Nosotros</a></li>
-                    <li"><a class="boton" href="#"><i class="fas fa-paw"></i>Contactanos</a></li>
+                    <li"><a class="boton" href="#comedero"><i class="fas fa-paw"></i>Categoria</a></li>
+                    <li"><a class="boton" href="#comedero"><i class="fas fa-paw"></i>Pets</a></li>
+                    <li"><a class="boton" href="#nosotros"><i class="fas fa-paw"></i>Nosotros</a></li>
+                    <li"><a class="boton" href="#contacto"><i class="fas fa-paw"></i>Contactanos</a></li>
             </ul>
             </nav>
         </div>
@@ -46,54 +47,83 @@
         <section class="banner-main">
             <h2 class="titulo-banner">¡Es un placer tenerte aquí! </h2>
             <p class="subtitulo-banner">¡Comederos en descuento!</p>
-            <a class="botonera-main"href="#">Comederos</a>
+            <a class="botonera-main"href="#comedero">Comederos</a>
         </section>
     </div>
         <section class="top-main">
             <img class="huella"src="./img/pawprint 1.svg" alt="huella">
             <h2 class="title-main">Productos Destacados</h2>
             <ul class="botones-main">
-                <li><a class="boton-main" href="#">comederos</a></li>
+                <li><a class="boton-main" id="comedero" href="#">comederos</a></li>
                 <li><a class="boton-main" href="#">accesorios</a></li>
                 <li><a class="boton-main" href="#">comida</a></li>
             </ul>
         </section>
         <section class="mid-main">
-            <img class="card" src="./img/churrasquito.svg" alt="">
-            <img class="card" src="./img/comedero.svg" alt="">
-            <img class="card" src="./img/Huesito.svg" alt="">
-        </section>
-        <section class="bot-cards">
-            <div><h4>juguete churrasquito</h4>
-            <p>$150</p></div>
-            <div><h4>comedero para perro</h4>
-            <p>$250</p></div>
-            <div>
-            <h4>Juguete Huesito</h4>
-            <p>$650</p>
+            <div class="card"><img src="./img/churrasquito.svg" alt="">
+                <h4>juguete churrasquito</h4>
+                <p>$150</p></div>
+            </div>
+            <div class="card"><img src="./img/comedero.svg" alt="">
+                <h4>comedero para perro</h4>
+                <p>$250</p></div>
+            </div>
+            <div class="card"><img src="./img/Huesito.svg" alt="">
+                <h4>Juguete Huesito</h4>
+                <p>$650</p>
             </div>
         </section>
         <section class="bot-main">
-            <h2>Contactanos</h2>
+            <h2 id="contacto">Contactanos</h2>
             <form class="form"action="">
                 <ul class="list-form">
                     <li><input class="input" type="text" placeholder="Nombre y Apellido"></li>
                     <li><input class="input" type="text" placeholder="Ingresa tu correo electronico"></li> 
                     <li><input class="input" type="text" placeholder="Telefono"></li>
                 </ul>
+                <div class="inputs">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear">
+                </div>
             </form>
         </section>
     </main>
     <footer>
         <div class="top-footer">
-            <h2 class="subscribete">Suscríbete para más novedades</h2>
+            <h2 class="subscribete"><i class="fas fa-envelope"></i>Suscríbete para más novedades</h2>
             <ul class="funciona">
                 <li><input class="input1" type="text" name="correo" id="correo" placeholder="Ingresá tu correo electronico" ></li>
-                <li><input type="submit" name="" id="" value="Subscribirme"></li>
+                <li><input type="submit" name="" id="" value="Subscribirme" class="inputs2"></li>
             </ul>
         </div>
-        <div class="bot-footer">
-            
+        <div class="bot-footer" id="nosotros">
+            <div class="encierro">
+            <div class="logo-footer">
+                <img src="./img/location.png" alt="location">
+                <img src="./img/phone.png" alt="phone">
+                <img src="./img/correo.png" alt="correo">
+            </div>
+            <div class="text-logo">
+            <div>
+                <h4>Localidad</h4>
+                <p>Calle - provincia</p>
+            </div>
+            <div>
+                <h4>Teléfono</h4>
+                <p>número de teléfono</p>
+            </div>
+            <div>
+                <h4>Correo Electronico</h4>
+                <p>dirección de correo</p>
+            </div>
+            </div>
+        </div>
+            <div class="logo-footer-oficial">
+                <h1 class="Textcyd1"><img class="img-logo" src="./img/Cat.svg" alt="logo">Front<span class="titulo1">Cat&Dog</span><img class="img-logo" src="./img/Dog.svg" alt="logo"></h1>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Todos los derechos reservados Front End</p>
         </div>
     </footer>
 </body>
