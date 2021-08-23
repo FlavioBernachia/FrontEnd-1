@@ -342,7 +342,7 @@ ul{
     }
     .container{
         display: flex;    
-        padding: 20px;
+        padding: 100px;
         flex-direction: column;
         flex-wrap: nowrap;
         align-content: flex-end;
